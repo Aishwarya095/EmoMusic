@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.EmoMusic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorPrimaryVariant">@color/card_bg</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="android:windowBackground">@color/background_deep</item>
+        <item name="android:statusBarColor">@color/background_deep</item>
+        <item name="android:navigationBarColor">@color/background_deep</item>
+    </style>
+
+    <!-- Style for the Result Card -->
+    <style name="Widget.EmoMusic.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_bg</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <!-- Bottom Sheet Theme -->
+    <style name="Theme.EmoMusic.BottomSheetDialog" parent="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.EmoMusic.BottomSheet</item>
+    </style>
+
+    <!-- Bottom Sheet Widget Style -->
+    <style name="Widget.EmoMusic.BottomSheet" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@color/card_bg</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.EmoMusic.BottomSheet</item>
+    </style>
+
+    <!-- Shape Appearance for Bottom Sheet (Rounded Corners at Top) -->
+    <style name="ShapeAppearance.EmoMusic.BottomSheet" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+</resources>

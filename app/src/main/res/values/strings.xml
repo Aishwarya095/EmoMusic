@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mymusiccc</string>
+    <string name="scanning_emotion">SCANNING EMOTION…</string>
+    <string name="scan_again">🔄 Scan Again</string>
+    <string name="music_for_your">Music for your %1$s mood</string>
+    <string name="powered_by_spotify">Powered by Spotify</string>
+    <string name="open_spotify">Open Spotify</string>
+    <string name="no_face_detected">No face detected. Try again.</string>
+</resources>
